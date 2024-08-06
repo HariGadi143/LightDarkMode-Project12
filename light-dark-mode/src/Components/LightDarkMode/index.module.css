@@ -1,0 +1,60 @@
+.mainContainer {
+  max-width: 1400px;
+  margin: 0px auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkModeCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 100px;
+}
+
+.darkModeCon h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.darkModeCon button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+.lightModeCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 100px;
+}
+
+.lightModeCon h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.lightModeCon button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
